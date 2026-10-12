@@ -19,8 +19,8 @@
     "sizeOnStartupMode": "",
     "templateSlug": "starting-top-down",
     "version": "1.0.0",
-    "name": "AURORA: The Truth",
-    "description": "",
+    "name": "AURORA: Awakening",
+    "description": "Algunos recuerdos no deberían despertar.\n\nEn un mundo futurista marcado por el misterio y la tecnología, AURORA despierta sin comprender quién es ni qué ocurrió con su pasado. Rodeada de estructuras desconocidas y robots hostiles, deberá explorar un entorno peligroso, enfrentarse a enemigos y recuperar fragmentos de una memoria que parece haber sido borrada.\n\nA medida que avanza, antiguos recuerdos comienzan a manifestarse en imágenes fugaces, lugares olvidados y voces que resuenan desde lo más profundo de su conciencia. Una casa desconocida. Una presencia perdida. Un nombre que lo cambia todo: «Annie…»\n\nCada descubrimiento acerca a AURORA a una verdad que podría cambiar su percepción de sí misma. Mientras combate para sobrevivir y busca respuestas entre los restos de un pasado incierto, deberá descubrir qué es realmente y por qué esos recuerdos siguen intentando despertar.\n\n¿Hasta dónde puede llegar una máquina para descubrir quién es… y qué sucede cuando los recuerdos que recupera deberían haber permanecido ocultos?\n\nDesarrollado por Valentino Carribale, Iván Radoeff, Ramiro Herrera y Agustín Bianchi\nResoluciones Lógicas 4to Informático, Colegio del Carmen, Prof. Brian Roco.",
     "author": "",
     "windowWidth": 1920,
     "windowHeight": 1080,
@@ -5157,6 +5157,8 @@
               "RandomizedAngle": 0
             },
             {
+              "name": "TopDownMovement",
+              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
               "acceleration": 400,
               "allowDiagonals": true,
               "angleOffset": 0,
@@ -5166,9 +5168,7 @@
               "ignoreDefaultControls": false,
               "maxSpeed": 200,
               "movementAngleOffset": 0,
-              "name": "TopDownMovement",
               "rotateObject": true,
-              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
               "useLegacyTurnBack": false,
               "viewpoint": "TopDown"
             }
