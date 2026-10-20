@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 282,
+    "build": 283,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -1844,6 +1844,62 @@
         "name": "assets/dron_artilleroizquierda3.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Salto1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Salto1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Salto2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Salto2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Salto3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Salto3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Salto4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Salto4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Salto5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Salto5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Salto6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Salto6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/robot2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/robot2.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -1876,7 +1932,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6672773998330249,
+        "zoomFactor": 1.2952916551236453,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -4962,6 +5018,12 @@
               "persistentUuid": "89d04865-f3f1-4bed-8655-4a5002907312",
               "type": "number",
               "value": 0
+            },
+            {
+              "name": "Salto",
+              "persistentUuid": "7136da7c-d46e-4c9b-bf9d-56b29e1ef0e0",
+              "type": "number",
+              "value": 0
             }
           ],
           "effects": [],
@@ -5070,6 +5132,10 @@
               "ControllerIdentifier": 1,
               "JoystickIdentifier": "Primary",
               "StickMode": "Analog"
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
             }
           ],
           "animations": [
@@ -6767,6 +6833,594 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets/muerte-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 14
+                          },
+                          {
+                            "x": 4,
+                            "y": 4
+                          },
+                          {
+                            "x": 13,
+                            "y": 0
+                          },
+                          {
+                            "x": 21,
+                            "y": 4
+                          },
+                          {
+                            "x": 21,
+                            "y": 14
+                          },
+                          {
+                            "x": 15.5,
+                            "y": 18
+                          },
+                          {
+                            "x": 9.5,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "salto",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.05,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Salto1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 14
+                          },
+                          {
+                            "x": 4,
+                            "y": 4
+                          },
+                          {
+                            "x": 13,
+                            "y": 0
+                          },
+                          {
+                            "x": 21,
+                            "y": 4
+                          },
+                          {
+                            "x": 21,
+                            "y": 14
+                          },
+                          {
+                            "x": 15.5,
+                            "y": 18
+                          },
+                          {
+                            "x": 9.5,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Salto2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 14
+                          },
+                          {
+                            "x": 4,
+                            "y": 4
+                          },
+                          {
+                            "x": 13,
+                            "y": 0
+                          },
+                          {
+                            "x": 21,
+                            "y": 4
+                          },
+                          {
+                            "x": 21,
+                            "y": 14
+                          },
+                          {
+                            "x": 15.5,
+                            "y": 18
+                          },
+                          {
+                            "x": 9.5,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Salto3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 14
+                          },
+                          {
+                            "x": 4,
+                            "y": 4
+                          },
+                          {
+                            "x": 13,
+                            "y": 0
+                          },
+                          {
+                            "x": 21,
+                            "y": 4
+                          },
+                          {
+                            "x": 21,
+                            "y": 14
+                          },
+                          {
+                            "x": 15.5,
+                            "y": 18
+                          },
+                          {
+                            "x": 9.5,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Salto4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 14
+                          },
+                          {
+                            "x": 4,
+                            "y": 4
+                          },
+                          {
+                            "x": 13,
+                            "y": 0
+                          },
+                          {
+                            "x": 21,
+                            "y": 4
+                          },
+                          {
+                            "x": 21,
+                            "y": 14
+                          },
+                          {
+                            "x": 15.5,
+                            "y": 18
+                          },
+                          {
+                            "x": 9.5,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Salto5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 14
+                          },
+                          {
+                            "x": 4,
+                            "y": 4
+                          },
+                          {
+                            "x": 13,
+                            "y": 0
+                          },
+                          {
+                            "x": 21,
+                            "y": 4
+                          },
+                          {
+                            "x": 21,
+                            "y": 14
+                          },
+                          {
+                            "x": 15.5,
+                            "y": 18
+                          },
+                          {
+                            "x": 9.5,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Salto6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 14
+                          },
+                          {
+                            "x": 4,
+                            "y": 4
+                          },
+                          {
+                            "x": 13,
+                            "y": 0
+                          },
+                          {
+                            "x": 21,
+                            "y": 4
+                          },
+                          {
+                            "x": 21,
+                            "y": 14
+                          },
+                          {
+                            "x": 15.5,
+                            "y": 18
+                          },
+                          {
+                            "x": 9.5,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Salto5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 14
+                          },
+                          {
+                            "x": 4,
+                            "y": 4
+                          },
+                          {
+                            "x": 13,
+                            "y": 0
+                          },
+                          {
+                            "x": 21,
+                            "y": 4
+                          },
+                          {
+                            "x": 21,
+                            "y": 14
+                          },
+                          {
+                            "x": 15.5,
+                            "y": 18
+                          },
+                          {
+                            "x": 9.5,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Salto4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 14
+                          },
+                          {
+                            "x": 4,
+                            "y": 4
+                          },
+                          {
+                            "x": 13,
+                            "y": 0
+                          },
+                          {
+                            "x": 21,
+                            "y": 4
+                          },
+                          {
+                            "x": 21,
+                            "y": 14
+                          },
+                          {
+                            "x": 15.5,
+                            "y": 18
+                          },
+                          {
+                            "x": 9.5,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Salto3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 14
+                          },
+                          {
+                            "x": 4,
+                            "y": 4
+                          },
+                          {
+                            "x": 13,
+                            "y": 0
+                          },
+                          {
+                            "x": 21,
+                            "y": 4
+                          },
+                          {
+                            "x": 21,
+                            "y": 14
+                          },
+                          {
+                            "x": 15.5,
+                            "y": 18
+                          },
+                          {
+                            "x": 9.5,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Salto2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 14
+                          },
+                          {
+                            "x": 4,
+                            "y": 4
+                          },
+                          {
+                            "x": 13,
+                            "y": 0
+                          },
+                          {
+                            "x": 21,
+                            "y": 4
+                          },
+                          {
+                            "x": 21,
+                            "y": 14
+                          },
+                          {
+                            "x": 15.5,
+                            "y": 18
+                          },
+                          {
+                            "x": 9.5,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Salto1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 14
+                          },
+                          {
+                            "x": 4,
+                            "y": 4
+                          },
+                          {
+                            "x": 13,
+                            "y": 0
+                          },
+                          {
+                            "x": 21,
+                            "y": 4
+                          },
+                          {
+                            "x": 21,
+                            "y": 14
+                          },
+                          {
+                            "x": 15.5,
+                            "y": 18
+                          },
+                          {
+                            "x": 9.5,
+                            "y": 18
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/robot2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -13690,6 +14344,15 @@
                 },
                 {
                   "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Player",
+                    "\"Daño\""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Hide"
                   },
                   "parameters": [
@@ -14202,16 +14865,47 @@
                     "Player",
                     "TopDownMovement"
                   ]
-                },
+                }
+              ],
+              "events": [
                 {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Animation",
-                    "=",
-                    "\"arriba\""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Salto",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CompareObjectTimer"
+                      },
+                      "parameters": [
+                        "Player",
+                        "\"Daño\"",
+                        ">=",
+                        "0.6"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Animation",
+                        "=",
+                        "\"arriba\""
+                      ]
+                    }
                   ]
                 }
               ]
@@ -14265,16 +14959,47 @@
                     "Player",
                     "TopDownMovement"
                   ]
-                },
+                }
+              ],
+              "events": [
                 {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Animation",
-                    "=",
-                    "\"izquierda\""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Salto",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CompareObjectTimer"
+                      },
+                      "parameters": [
+                        "Player",
+                        "\"Daño\"",
+                        ">=",
+                        "0.6"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Animation",
+                        "=",
+                        "\"izquierda\""
+                      ]
+                    }
                   ]
                 }
               ]
@@ -14328,16 +15053,47 @@
                     "Player",
                     "TopDownMovement"
                   ]
-                },
+                }
+              ],
+              "events": [
                 {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Animation",
-                    "=",
-                    "\"abajo\""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Salto",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CompareObjectTimer"
+                      },
+                      "parameters": [
+                        "Player",
+                        "\"Daño\"",
+                        ">=",
+                        "0.6"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Animation",
+                        "=",
+                        "\"abajo\""
+                      ]
+                    }
                   ]
                 }
               ]
@@ -14391,6 +15147,97 @@
                     "Player",
                     "TopDownMovement"
                   ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Salto",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CompareObjectTimer"
+                      },
+                      "parameters": [
+                        "Player",
+                        "\"Daño\"",
+                        ">=",
+                        "0.6"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Animation",
+                        "=",
+                        "\"derecha\""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "aiGeneratedEventId": "01M52M74GTWR5RXWC4MKHEV170",
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextJustPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Space\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Salto",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Teclado",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Salto",
+                    "=",
+                    "1"
+                  ]
                 },
                 {
                   "type": {
@@ -14400,7 +15247,57 @@
                     "Player",
                     "Animation",
                     "=",
-                    "\"derecha\""
+                    "\"salto\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Player",
+                    "\"Salto\""
+                  ]
+                }
+              ]
+            },
+            {
+              "aiGeneratedEventId": "01M52M7J8T4QJH0TN1N85KW8ER",
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Salto",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Player",
+                    "\"Salto\"",
+                    ">=",
+                    "0.6"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Salto",
+                    "=",
+                    "0"
                   ]
                 }
               ]
@@ -14852,18 +15749,6 @@
                     "=",
                     "\"disparoiones\""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "RotateTowardPosition"
-                  },
-                  "parameters": [
-                    "Player",
-                    "CursorX()",
-                    "CursorY()",
-                    "0",
-                    ""
-                  ]
                 }
               ]
             },
@@ -15030,18 +15915,6 @@
                   "parameters": [
                     "",
                     "\"CooldownPlasma\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "RotateTowardPosition"
-                  },
-                  "parameters": [
-                    "Player",
-                    "CursorX()",
-                    "CursorY()",
-                    "0",
-                    ""
                   ]
                 }
               ]
@@ -16128,6 +17001,15 @@
                     "Animation",
                     "=",
                     "\"daño\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Player",
+                    "\"Daño\""
                   ]
                 }
               ]
@@ -18055,6 +18937,15 @@
                     "=",
                     "\"daño\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Player",
+                    "\"Daño\""
+                  ]
                 }
               ]
             },
@@ -18688,7 +19579,23 @@
       "stopSoundsOnStartup": true,
       "title": "",
       "v": 249,
-      "uiSettings": {},
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridDepth": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridOffsetZ": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.3645833333333333,
+        "windowMask": false,
+        "selectedLayer": "",
+        "gameEditorMode": "instances-editor"
+      },
       "objectsGroups": [],
       "variables": [],
       "instances": [],
@@ -42752,6 +43659,197 @@
                 }
               ],
               "editionSettings": []
+            },
+            {
+              "areaMaxX": 36,
+              "areaMaxY": 12,
+              "areaMaxZ": 1,
+              "areaMinX": 0,
+              "areaMinY": 0,
+              "areaMinZ": 0,
+              "assetStoreAssetId": "7d30a85f69ae0037c5e605b1065935dc2d7053ff1a76ed6bbdee7ee6bda1b8c0",
+              "assetStoreOriginalName": "Thick Pixel Shield",
+              "name": "Thick Pixel Shield",
+              "objects": [
+                {
+                  "assetStoreId": "",
+                  "height": 12,
+                  "name": "FillBar",
+                  "persistentUuid": "90eef22a-f85b-467d-9aa4-ee3cae0a76ce",
+                  "texture": "assets\\Thick Pixel Shield Resource Bar Separated Filled.png",
+                  "type": "TiledSpriteObject::TiledSprite",
+                  "width": 12,
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "leftEdgeAnchor": 1,
+                      "rightEdgeAnchor": 1,
+                      "bottomEdgeAnchor": 4,
+                      "relativeToOriginalWindowSize": true,
+                      "topEdgeAnchor": 4,
+                      "useLegacyBottomAndRightAnchors": false
+                    },
+                    {
+                      "name": "ResourceBar",
+                      "type": "TiledUnitsBar::ResourceBar",
+                      "Value": 1,
+                      "MaxValue": 3,
+                      "PreviousValue": 0
+                    }
+                  ]
+                },
+                {
+                  "assetStoreId": "",
+                  "height": 12,
+                  "name": "Bar",
+                  "persistentUuid": "765a6c3a-c1d2-442e-956f-d22068c56a3b",
+                  "texture": "assets\\Thick Pixel Shield Resource Bar Separated Empty.png",
+                  "type": "TiledSpriteObject::TiledSprite",
+                  "width": 12,
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "leftEdgeAnchor": 1,
+                      "rightEdgeAnchor": 1,
+                      "bottomEdgeAnchor": 4,
+                      "relativeToOriginalWindowSize": true,
+                      "topEdgeAnchor": 4,
+                      "useLegacyBottomAndRightAnchors": false
+                    }
+                  ]
+                },
+                {
+                  "assetStoreId": "",
+                  "bottomMargin": 0,
+                  "height": 32,
+                  "leftMargin": 0,
+                  "name": "Background",
+                  "persistentUuid": "ebee811f-dd19-4f5c-a447-69c5bf2c1dfd",
+                  "rightMargin": 0,
+                  "texture": "",
+                  "tiled": false,
+                  "topMargin": 0,
+                  "type": "PanelSpriteObject::PanelSprite",
+                  "width": 32,
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "bottomEdgeAnchor": 2,
+                      "leftEdgeAnchor": 1,
+                      "relativeToOriginalWindowSize": true,
+                      "rightEdgeAnchor": 2,
+                      "topEdgeAnchor": 1,
+                      "useLegacyBottomAndRightAnchors": false
+                    }
+                  ]
+                }
+              ],
+              "objectsFolderStructure": {
+                "folderName": "__ROOT",
+                "children": [
+                  {
+                    "objectName": "FillBar"
+                  },
+                  {
+                    "objectName": "Bar"
+                  },
+                  {
+                    "objectName": "Background"
+                  }
+                ]
+              },
+              "objectsGroups": [],
+              "layers": [
+                {
+                  "ambientLightColorB": 200,
+                  "ambientLightColorG": 200,
+                  "ambientLightColorR": 200,
+                  "camera2DPlaneMaxDrawingDistance": 5000,
+                  "camera3DFarPlaneDistance": 10000,
+                  "camera3DFieldOfView": 45,
+                  "camera3DNearPlaneDistance": 3,
+                  "cameraType": "",
+                  "followBaseLayerCamera": false,
+                  "isLightingLayer": false,
+                  "isLocked": false,
+                  "name": "",
+                  "renderingType": "",
+                  "visibility": true,
+                  "cameras": [
+                    {
+                      "defaultSize": true,
+                      "defaultViewport": true,
+                      "height": 0,
+                      "viewportBottom": 1,
+                      "viewportLeft": 0,
+                      "viewportRight": 1,
+                      "viewportTop": 0,
+                      "width": 0
+                    }
+                  ],
+                  "effects": []
+                }
+              ],
+              "instances": [
+                {
+                  "angle": 0,
+                  "customSize": true,
+                  "depth": 0,
+                  "height": 12,
+                  "layer": "",
+                  "name": "Bar",
+                  "persistentUuid": "caf6fdad-096d-4247-b23b-6cc1a89ce9f8",
+                  "width": 36,
+                  "x": 0,
+                  "y": 0,
+                  "zOrder": 2,
+                  "numberProperties": [],
+                  "stringProperties": [],
+                  "initialVariables": []
+                },
+                {
+                  "angle": 0,
+                  "customSize": true,
+                  "depth": 0,
+                  "height": 12,
+                  "layer": "",
+                  "name": "FillBar",
+                  "persistentUuid": "4b784a8f-dbae-4d8b-a287-628642416d10",
+                  "width": 36,
+                  "x": 0,
+                  "y": 0,
+                  "zOrder": 3,
+                  "numberProperties": [],
+                  "stringProperties": [],
+                  "initialVariables": []
+                }
+              ],
+              "editionSettings": {
+                "grid": false,
+                "gridType": "rectangular",
+                "gridWidth": 32,
+                "gridHeight": 32,
+                "gridDepth": 32,
+                "gridOffsetX": 0,
+                "gridOffsetY": 0,
+                "gridOffsetZ": 0,
+                "gridColor": 10401023,
+                "gridAlpha": 0.8,
+                "snap": false,
+                "zoomFactor": 10.501720135565007,
+                "windowMask": false,
+                "selectedLayer": "",
+                "gameEditorMode": "instances-editor"
+              }
             }
           ]
         }
