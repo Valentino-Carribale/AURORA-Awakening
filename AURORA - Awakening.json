@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 283,
+    "build": 282,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -1900,6 +1900,94 @@
         "name": "assets/robot2.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Thick Pixel Shield Resource Bar Separated Empty2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Thick Pixel Shield Resource Bar Separated Empty.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/Kenney/Pixel art/4cd008c9359bb90459cf405a1c8a506ceb06f83e3e834c430333b35b5bc8e7a8_Thick Pixel Shield Resource Bar Separated Empty.png",
+          "name": "Thick Pixel Shield Resource Bar Separated Empty.png"
+        }
+      },
+      {
+        "file": "assets/Thick Pixel Shield Resource Bar Separated Filled2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Thick Pixel Shield Resource Bar Separated Filled.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/Kenney/Pixel art/4713d8c66c91744b6f6b23f342cab3c40ef11a416054d04ce355d747e4221f4c_Thick Pixel Shield Resource Bar Separated Filled.png",
+          "name": "Thick Pixel Shield Resource Bar Separated Filled.png"
+        }
+      },
+      {
+        "file": "assets/Thick Pixel Shield Resource Bar Separated Filled.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\Thick Pixel Shield Resource Bar Separated Filled.png2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Thick Pixel Shield Resource Bar Separated Empty.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\Thick Pixel Shield Resource Bar Separated Empty.png2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Thick Pixel Shield Resource Bar Separated Filled.png3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\Thick Pixel Shield Resource Bar Separated Filled.png3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Thick Pixel Shield Resource Bar Separated Empty.png3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\Thick Pixel Shield Resource Bar Separated Empty.png3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Controles HUD.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Controles HUD.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Objetivo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Objetivo.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Nivel1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Nivel1.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -1932,7 +2020,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.2952916551236453,
+        "zoomFactor": 0.6244537826600268,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -2073,6 +2161,18 @@
             },
             {
               "name": "VidaArtillero"
+            },
+            {
+              "name": "VidaAzul"
+            },
+            {
+              "name": "Controles"
+            },
+            {
+              "name": "Nivel1"
+            },
+            {
+              "name": "Objetivo"
             }
           ]
         },
@@ -2177,6 +2277,16 @@
         {
           "name": "Recuerdo2Var",
           "persistentUuid": "a65cae95-f36e-4ff4-8b73-ef60ea4699e5",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "ObjetivoVar",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "ControlesVar",
           "type": "number",
           "value": 0
         }
@@ -4479,22 +4589,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "HUD",
-          "name": "VidaAURORA",
-          "persistentUuid": "0e4c3040-1736-44dd-9a46-01ac1efdd6ab",
-          "width": 0,
-          "x": 49,
-          "y": 941,
-          "zOrder": 28,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "depth": 1,
           "height": 42,
@@ -4984,9 +5078,109 @@
           "name": "VidaBuscador",
           "persistentUuid": "32e6189e-ca33-4e20-b1a0-ecea5f9819b6",
           "width": 0,
-          "x": 10,
-          "y": 86,
+          "x": 12,
+          "y": 100,
           "zOrder": 125,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 25,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "VidaAzul",
+          "persistentUuid": "0fa59f40-f5f2-441f-85db-05f8399868d9",
+          "width": 145,
+          "x": 50,
+          "y": 919,
+          "zOrder": 126,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "VidaArtillero",
+          "persistentUuid": "bba1a03f-a822-4e33-82c8-6a4d7a9ebad5",
+          "width": 0,
+          "x": 11,
+          "y": 119,
+          "zOrder": 127,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 4,
+          "height": 91,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "Controles",
+          "persistentUuid": "72734960-e2a7-42c7-a2bb-9b2fc6222dca",
+          "width": 137,
+          "x": 1,
+          "y": 0,
+          "zOrder": 128,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Negro",
+          "persistentUuid": "8689e6d8-b1ea-4110-bec9-46eccee217e7",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 120,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 83,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "Objetivo",
+          "persistentUuid": "6c94ef4d-0a95-4d2a-8ee5-5b44a3a319c6",
+          "width": 125,
+          "x": 0,
+          "y": 0,
+          "zOrder": 129,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 88,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "Nivel1",
+          "persistentUuid": "0dbe424e-ae1d-484b-a8db-c4f184140de6",
+          "width": 132,
+          "x": 0,
+          "y": 0,
+          "zOrder": 130,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10331,50 +10525,6 @@
           ]
         },
         {
-          "assetStoreId": "",
-          "bold": true,
-          "italic": false,
-          "name": "VidaAURORA",
-          "persistentUuid": "1b0ad33d-b7ce-4008-8c7a-b5410d8ccd23",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "Vida: 3",
-          "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
-          "textAlignment": "left",
-          "characterSize": 50,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          },
-          "content": {
-            "bold": true,
-            "isOutlineEnabled": true,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 5,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "Vida: 3",
-            "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
-            "textAlignment": "left",
-            "verticalTextAlignment": "top",
-            "characterSize": 50,
-            "lineHeight": 0,
-            "color": "0;0;0"
-          }
-        },
-        {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "MensajeCajas",
@@ -14104,6 +14254,283 @@
             "PreviousHighValueDuration": 0,
             "EasingDuration": 0.25
           }
+        },
+        {
+          "assetStoreId": "7d30a85f69ae0037c5e605b1065935dc2d7053ff1a76ed6bbdee7ee6bda1b8c0",
+          "name": "VidaAzul",
+          "persistentUuid": "daa9ce6d-be0d-4203-8e7e-bd6f4c9140cc",
+          "type": "TiledUnitsBar::TiledUnitsBar",
+          "variant": "Thick Pixel Shield Grande",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "UnitWidth": 48,
+            "HideBackground": true,
+            "ShowBackground": false,
+            "InitialValue": 3,
+            "MaxValue": 3
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Controles",
+          "persistentUuid": "32c60a43-262f-439c-9432-35489e7df86d",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Controles HUD.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1536,
+                            "y": 0
+                          },
+                          {
+                            "x": 1536,
+                            "y": 1024
+                          },
+                          {
+                            "x": 0,
+                            "y": 1024
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Negro",
+          "persistentUuid": "645b4cea-7d5a-4264-8fc4-00a13574049c",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite12",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Objetivo",
+          "persistentUuid": "9a0764bb-dbf8-4460-8b00-c524add15bc9",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Objetivo.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1536,
+                            "y": 0
+                          },
+                          {
+                            "x": 1536,
+                            "y": 1024
+                          },
+                          {
+                            "x": 0,
+                            "y": 1024
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Nivel1",
+          "persistentUuid": "e899d00d-222a-4bb6-a38e-decc608299ac",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Nivel1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1536,
+                            "y": 0
+                          },
+                          {
+                            "x": 1536,
+                            "y": 1024
+                          },
+                          {
+                            "x": 0,
+                            "y": 1024
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -14144,9 +14571,6 @@
           },
           {
             "objectName": "Recuerdos"
-          },
-          {
-            "objectName": "VidaAURORA"
           },
           {
             "objectName": "TextoHackeo1"
@@ -14270,6 +14694,21 @@
           },
           {
             "objectName": "PlataformaBateria2"
+          },
+          {
+            "objectName": "VidaAzul"
+          },
+          {
+            "objectName": "Controles"
+          },
+          {
+            "objectName": "Negro"
+          },
+          {
+            "objectName": "Objetivo"
+          },
+          {
+            "objectName": "Nivel1"
           }
         ]
       },
@@ -14349,6 +14788,28 @@
                   "parameters": [
                     "Player",
                     "\"Daño\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "Negro",
+                    "Resizable",
+                    "=",
+                    "1920"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                  },
+                  "parameters": [
+                    "Negro",
+                    "Resizable",
+                    "=",
+                    "1080"
                   ]
                 },
                 {
@@ -14451,12 +14912,23 @@
                 },
                 {
                   "type": {
+                    "value": "TiledUnitsBar::TiledUnitsBar::SetValue"
+                  },
+                  "parameters": [
+                    "VidaAzul",
+                    "=",
+                    "3",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
                     "Teclado",
                     "=",
-                    "1"
+                    "0"
                   ]
                 },
                 {
@@ -14483,7 +14955,7 @@
                   "parameters": [
                     "",
                     "\"Tiempo\"",
-                    ">",
+                    ">=",
                     "5"
                   ]
                 },
@@ -14526,26 +14998,417 @@
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
+              "conditions": [
                 {
                   "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                    "value": "CompareTimer"
                   },
                   "parameters": [
-                    "VidaAURORA",
-                    "Text",
-                    "=",
-                    "\"Vida: \" + ToString(round(Player.Variable(Vida)))"
+                    "",
+                    "\"Tiempo\"",
+                    ">=",
+                    "8"
                   ]
                 },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
                 {
                   "type": {
                     "value": "Show"
                   },
                   "parameters": [
-                    "VidaAURORA",
+                    "Objetivo",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Objetivo",
+                    "Opacity",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "Objetivo",
+                    "Resizable",
+                    "=",
+                    "1920"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                  },
+                  "parameters": [
+                    "Objetivo",
+                    "Resizable",
+                    "=",
+                    "1080"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Objetivo",
+                    "Tween",
+                    "\"Controles\"",
+                    "255",
+                    "\"linear\"",
+                    "3",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Tiempo\"",
+                    ">=",
+                    "11"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyFromTextJustPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"e\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Objetivo",
+                    "Tween",
+                    "\"DesaparicionControles\"",
+                    "0",
+                    "\"linear\"",
+                    "3",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Objetivo\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Objetivo\"",
+                    ">=",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Controles",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Controles",
+                    "Opacity",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "Controles",
+                    "Resizable",
+                    "=",
+                    "1920"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                  },
+                  "parameters": [
+                    "Controles",
+                    "Resizable",
+                    "=",
+                    "1080"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Controles",
+                    "Tween",
+                    "\"Controles\"",
+                    "255",
+                    "\"linear\"",
+                    "3",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Tiempo\"",
+                    ">=",
+                    "15"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyFromTextJustPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"e\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Controles",
+                    "Tween",
+                    "\"DesaparicionControles\"",
+                    "0",
+                    "\"linear\"",
+                    "3",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Nivel\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Nivel\"",
+                    ">=",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Nivel1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Nivel1",
+                    "Opacity",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "Nivel1",
+                    "Resizable",
+                    "=",
+                    "1920"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                  },
+                  "parameters": [
+                    "Nivel1",
+                    "Resizable",
+                    "=",
+                    "1080"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Nivel1",
+                    "Tween",
+                    "\"Controles\"",
+                    "255",
+                    "\"linear\"",
+                    "3",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Tiempo\"",
+                    ">=",
+                    "20"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyFromTextJustPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"e\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Negro"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Nivel1",
+                    "Tween",
+                    "\"DesaparicionControles\"",
+                    "0",
+                    "\"linear\"",
+                    "3",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Teclado",
+                    "=",
+                    "1"
                   ]
                 }
               ]
@@ -14790,6 +15653,17 @@
                     "945",
                     "=",
                     "445"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TiledUnitsBar::TiledUnitsBar::SetValue"
+                  },
+                  "parameters": [
+                    "VidaAzul",
+                    "=",
+                    "3",
+                    ""
                   ]
                 },
                 {
@@ -15699,6 +16573,16 @@
                     ">",
                     "1"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Teclado",
+                    "=",
+                    "1"
+                  ]
                 }
               ],
               "actions": [
@@ -15876,6 +16760,16 @@
                     "\"CooldownPlasma\"",
                     ">",
                     "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Teclado",
+                    "=",
+                    "1"
                   ]
                 }
               ],
@@ -16450,6 +17344,16 @@
                 },
                 {
                   "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Teclado",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Show"
                   },
                   "parameters": [
@@ -16611,6 +17515,16 @@
                   },
                   "parameters": [
                     "Recuerdo1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Teclado",
+                    "=",
+                    "1"
                   ]
                 }
               ]
@@ -16981,6 +17895,17 @@
                     "Vida",
                     "-",
                     "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TiledUnitsBar::TiledUnitsBar::SetValue"
+                  },
+                  "parameters": [
+                    "VidaAzul",
+                    "-",
+                    "1",
+                    ""
                   ]
                 },
                 {
@@ -18418,6 +19343,16 @@
                 },
                 {
                   "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Teclado",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Show"
                   },
                   "parameters": [
@@ -18639,6 +19574,16 @@
                     "1",
                     "75",
                     "75"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Teclado",
+                    "=",
+                    "1"
                   ]
                 }
               ]
@@ -18866,7 +19811,7 @@
                     "ProyectilArtillero",
                     "Player.X()",
                     "Player.Y()",
-                    "100",
+                    "200",
                     ""
                   ]
                 },
@@ -18916,6 +19861,17 @@
                     "Vida",
                     "-",
                     "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TiledUnitsBar::TiledUnitsBar::SetValue"
+                  },
+                  "parameters": [
+                    "VidaAzul",
+                    "-",
+                    "2",
+                    ""
                   ]
                 },
                 {
@@ -19896,6 +20852,41 @@
         "enemies = harness.getObjects('Enemy');",
         "console.log('enemies after shooting:'+enemies.length);",
         "harness.assert(enemies.length===0 || enemies.some(e=>e.variables.some(v=>v.variableName==='Health' && v.value<3)) || true, 'Disparo afecta enemigos (ver log)');"
+      ]
+    },
+    {
+      "description": "Verifica barra de corazones grande en HUD y sincronizada con vida",
+      "lastRunAt": 1792535682347,
+      "lastRunDurationMs": 2635,
+      "lastRunFramesExecuted": 71,
+      "lastRunStatus": "passed",
+      "name": "test-barra-corazones",
+      "type": "gameplay",
+      "source": [
+        "await harness.goToScene('Prólogo - Nivel 1');",
+        "await harness.stepFrames(60);",
+        "const bars = harness.getObjects('VidaCorazones');",
+        "harness.assert(bars.length === 1, 'Existe 1 barra VidaCorazones en HUD, encontrado: '+bars.length);",
+        "if (bars.length>0) {",
+        "  harness.assert(bars[0].layer === 'HUD', 'La barra está en capa HUD (capa='+bars[0].layer+')');",
+        "  harness.assert(!bars[0].hidden, 'La barra está visible');",
+        "  harness.assert(bars[0].width >= 300, 'La barra es bien grande (width='+bars[0].width+')');",
+        "}",
+        "const players = harness.getObjects('Player');",
+        "harness.assert(players.length===1, 'Player existe');",
+        "if (players.length>0) {",
+        "  const vida = players[0].variables.find(v=>v.name==='Vida');",
+        "  harness.assert(vida && Math.round(Number(vida.value))===3, 'Vida inicial del Player es 3 (valor='+(vida?JSON.stringify(vida.value):'none')+')');",
+        "}",
+        "// Bajar vida a 1 y comprobar que la barra sigue visible y el texto se actualiza",
+        "if (players.length>0) {",
+        "  harness.setObjectVariable(players[0].id, 'Vida', 1);",
+        "  await harness.stepFrames(10);",
+        "  const bars2 = harness.getObjects('VidaCorazones');",
+        "  harness.assert(bars2.length===1 && !bars2[0].hidden, 'La barra sigue visible con Vida=1');",
+        "  const txts = harness.getObjects('VidaAURORA');",
+        "  if (txts.length>0) harness.assert((txts[0].text||'').includes('1'), 'Texto VidaAURORA muestra 1 (texto=\"'+(txts[0].text||'')+'\")');",
+        "}"
       ]
     }
   ],
@@ -43298,6 +44289,195 @@
             ]
           },
           "variants": [
+            {
+              "areaMaxX": 36,
+              "areaMaxY": 12,
+              "areaMaxZ": 1,
+              "areaMinX": 0,
+              "areaMinY": 0,
+              "areaMinZ": 0,
+              "name": "Thick Pixel Shield Grande",
+              "objects": [
+                {
+                  "assetStoreId": "",
+                  "height": 24,
+                  "name": "FillBar",
+                  "persistentUuid": "90eef22a-f85b-467d-9aa4-ee3cae0a76ce",
+                  "texture": "assets\\Thick Pixel Shield Resource Bar Separated Filled.png3",
+                  "type": "TiledSpriteObject::TiledSprite",
+                  "width": 24,
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "leftEdgeAnchor": 1,
+                      "rightEdgeAnchor": 1,
+                      "bottomEdgeAnchor": 4,
+                      "relativeToOriginalWindowSize": true,
+                      "topEdgeAnchor": 4,
+                      "useLegacyBottomAndRightAnchors": false
+                    },
+                    {
+                      "name": "ResourceBar",
+                      "type": "TiledUnitsBar::ResourceBar",
+                      "Value": 1,
+                      "MaxValue": 3,
+                      "PreviousValue": 0
+                    }
+                  ]
+                },
+                {
+                  "assetStoreId": "",
+                  "height": 48,
+                  "name": "Bar",
+                  "persistentUuid": "765a6c3a-c1d2-442e-956f-d22068c56a3b",
+                  "texture": "assets\\Thick Pixel Shield Resource Bar Separated Empty.png3",
+                  "type": "TiledSpriteObject::TiledSprite",
+                  "width": 144,
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "leftEdgeAnchor": 1,
+                      "rightEdgeAnchor": 1,
+                      "bottomEdgeAnchor": 4,
+                      "relativeToOriginalWindowSize": true,
+                      "topEdgeAnchor": 4,
+                      "useLegacyBottomAndRightAnchors": false
+                    }
+                  ]
+                },
+                {
+                  "assetStoreId": "",
+                  "bottomMargin": 0,
+                  "height": 48,
+                  "leftMargin": 0,
+                  "name": "Background",
+                  "persistentUuid": "ebee811f-dd19-4f5c-a447-69c5bf2c1dfd",
+                  "rightMargin": 0,
+                  "texture": "",
+                  "tiled": false,
+                  "topMargin": 0,
+                  "type": "PanelSpriteObject::PanelSprite",
+                  "width": 144,
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "bottomEdgeAnchor": 2,
+                      "leftEdgeAnchor": 1,
+                      "relativeToOriginalWindowSize": true,
+                      "rightEdgeAnchor": 2,
+                      "topEdgeAnchor": 1,
+                      "useLegacyBottomAndRightAnchors": false
+                    }
+                  ]
+                }
+              ],
+              "objectsFolderStructure": {
+                "folderName": "__ROOT",
+                "children": [
+                  {
+                    "objectName": "FillBar"
+                  },
+                  {
+                    "objectName": "Bar"
+                  },
+                  {
+                    "objectName": "Background"
+                  }
+                ]
+              },
+              "objectsGroups": [],
+              "layers": [
+                {
+                  "ambientLightColorB": 200,
+                  "ambientLightColorG": 200,
+                  "ambientLightColorR": 200,
+                  "camera2DPlaneMaxDrawingDistance": 5000,
+                  "camera3DFarPlaneDistance": 10000,
+                  "camera3DFieldOfView": 45,
+                  "camera3DNearPlaneDistance": 3,
+                  "cameraType": "",
+                  "followBaseLayerCamera": false,
+                  "isLightingLayer": false,
+                  "isLocked": false,
+                  "name": "",
+                  "renderingType": "",
+                  "visibility": true,
+                  "cameras": [
+                    {
+                      "defaultSize": true,
+                      "defaultViewport": true,
+                      "height": 0,
+                      "viewportBottom": 1,
+                      "viewportLeft": 0,
+                      "viewportRight": 1,
+                      "viewportTop": 0,
+                      "width": 0
+                    }
+                  ],
+                  "effects": []
+                }
+              ],
+              "instances": [
+                {
+                  "angle": 0,
+                  "customSize": true,
+                  "depth": 1,
+                  "height": 48,
+                  "layer": "",
+                  "name": "Bar",
+                  "persistentUuid": "caf6fdad-096d-4247-b23b-6cc1a89ce9f8",
+                  "width": 144,
+                  "x": 0,
+                  "y": 0,
+                  "zOrder": 2,
+                  "numberProperties": [],
+                  "stringProperties": [],
+                  "initialVariables": []
+                },
+                {
+                  "angle": 0,
+                  "customSize": true,
+                  "depth": 1,
+                  "height": 48,
+                  "layer": "",
+                  "name": "FillBar",
+                  "persistentUuid": "4b784a8f-dbae-4d8b-a287-628642416d10",
+                  "width": 144,
+                  "x": 0,
+                  "y": 0,
+                  "zOrder": 3,
+                  "numberProperties": [],
+                  "stringProperties": [],
+                  "initialVariables": []
+                }
+              ],
+              "editionSettings": {
+                "grid": false,
+                "gridType": "rectangular",
+                "gridWidth": 32,
+                "gridHeight": 32,
+                "gridDepth": 32,
+                "gridOffsetX": 0,
+                "gridOffsetY": 0,
+                "gridOffsetZ": 0,
+                "gridColor": 10401023,
+                "gridAlpha": 0.8,
+                "snap": false,
+                "zoomFactor": 4.897676726745098,
+                "windowMask": false,
+                "selectedLayer": "",
+                "gameEditorMode": "instances-editor"
+              }
+            },
             {
               "areaMaxX": 204,
               "areaMaxY": 59,
