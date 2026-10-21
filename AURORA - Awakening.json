@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 282,
+    "build": 284,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -2004,6 +2004,7 @@
       "mangledName": "Pr_243logo_32_45_32Nivel_321",
       "name": "Prólogo - Nivel 1",
       "r": 0,
+      "renderer3DWorldScale": 100,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
@@ -2282,11 +2283,13 @@
         },
         {
           "name": "ObjetivoVar",
+          "persistentUuid": "1d5cefad-4427-4b2f-898e-0854559a8e59",
           "type": "number",
           "value": 0
         },
         {
           "name": "ControlesVar",
+          "persistentUuid": "609809c7-6f29-4a72-8d91-8030c7cbd6e3",
           "type": "number",
           "value": 0
         }
@@ -7700,7 +7703,7 @@
             {
               "name": "FireBullet",
               "type": "FireBullet::FireBullet",
-              "FireCooldown": 3,
+              "FireCooldown": 4,
               "HasJustFired": false,
               "RotateBullet": true,
               "FiringArc": 45,
@@ -12253,7 +12256,7 @@
             {
               "name": "FireBullet",
               "type": "FireBullet::FireBullet",
-              "FireCooldown": 5,
+              "FireCooldown": 2,
               "HasJustFired": false,
               "RotateBullet": true,
               "FiringArc": 45,
@@ -15410,6 +15413,15 @@
                     "=",
                     "1"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "VidaAzul",
+                    ""
+                  ]
                 }
               ]
             },
@@ -15766,6 +15778,28 @@
                         ">=",
                         "0.6"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "CompareTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"CooldownIones\"",
+                        ">=",
+                        "0.3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CompareTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"CooldownPlasma\"",
+                        ">=",
+                        "0.3"
+                      ]
                     }
                   ],
                   "actions": [
@@ -15859,6 +15893,28 @@
                         "\"Daño\"",
                         ">=",
                         "0.6"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CompareTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"CooldownIones\"",
+                        ">=",
+                        "0.3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CompareTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"CooldownPlasma\"",
+                        ">=",
+                        "0.3"
                       ]
                     }
                   ],
@@ -15954,6 +16010,28 @@
                         ">=",
                         "0.6"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "CompareTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"CooldownIones\"",
+                        ">=",
+                        "0.3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CompareTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"CooldownPlasma\"",
+                        ">=",
+                        "0.3"
+                      ]
                     }
                   ],
                   "actions": [
@@ -16047,6 +16125,28 @@
                         "\"Daño\"",
                         ">=",
                         "0.6"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CompareTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"CooldownIones\"",
+                        ">=",
+                        "0.3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CompareTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"CooldownPlasma\"",
+                        ">=",
+                        "0.3"
                       ]
                     }
                   ],
@@ -16570,8 +16670,8 @@
                   "parameters": [
                     "",
                     "\"CooldownIones\"",
-                    ">",
-                    "1"
+                    ">=",
+                    "0.7"
                   ]
                 },
                 {
@@ -16610,7 +16710,7 @@
                     "Iones",
                     "CursorX()",
                     "CursorY()",
-                    "150",
+                    "200",
                     ""
                   ]
                 },
@@ -16758,8 +16858,8 @@
                   "parameters": [
                     "",
                     "\"CooldownPlasma\"",
-                    ">",
-                    "2"
+                    ">=",
+                    "1.5"
                   ]
                 },
                 {
@@ -16798,7 +16898,7 @@
                     "Plasma",
                     "CursorX()",
                     "CursorY()",
-                    "100",
+                    "150",
                     ""
                   ]
                 },
@@ -16809,6 +16909,17 @@
                   "parameters": [
                     "",
                     "\"CooldownPlasma\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation",
+                    "=",
+                    "\"disparoiones\""
                   ]
                 }
               ]
@@ -18353,6 +18464,18 @@
                     "=",
                     "0"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "ZonaHackeo1",
+                    "",
+                    "",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -18399,6 +18522,18 @@
                     "=",
                     "1"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "ZonaHackeo1",
+                    "",
+                    "",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -18444,6 +18579,18 @@
                     "PasoHackeo1",
                     "=",
                     "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "ZonaHackeo1",
+                    "",
+                    "",
+                    ""
                   ]
                 }
               ],
@@ -20531,6 +20678,7 @@
       "mangledName": "Bosque_32_45_32Nivel_322",
       "name": "Bosque - Nivel 2",
       "r": 247,
+      "renderer3DWorldScale": 100,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
