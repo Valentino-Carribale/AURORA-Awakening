@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 283,
+    "build": 285,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -1658,7 +1658,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/daño-0.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1666,7 +1666,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/daño-1.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1674,7 +1674,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/daño-2.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1682,7 +1682,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/daño-3.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1690,7 +1690,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/muerte-1.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1698,7 +1698,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/muerte-2.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1706,7 +1706,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/muerte-3.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1714,7 +1714,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/muerte-0.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1994,7 +1994,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/MapaBosqueN2.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2002,7 +2002,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/mapanivel3.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2010,7 +2010,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/Nivel2.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2028,7 +2028,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/Nivel3.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       }
     ]
@@ -2072,7 +2072,7 @@
         {
           "name": "FireBullet",
           "type": "FireBullet::FireBullet",
-          "FireCooldown": 1,
+          "FireCooldown": 0,
           "HasJustFired": false,
           "RotateBullet": true,
           "FiringArc": 45,
@@ -6757,7 +6757,12 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
       "animations": [
         {
           "name": "NewSprite",
@@ -7073,6 +7078,12 @@
       "persistentUuid": "a9bfdcb8-8b16-43e1-9d49-f252a63faa98",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "BloqueoE",
+      "persistentUuid": "71807b45-fe2b-4c36-8d96-8f1ffbe1b0f1",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -7082,6 +7093,7 @@
       "mangledName": "Pr_243logo_32_45_32Nivel_321",
       "name": "Prólogo - Nivel 1",
       "r": 0,
+      "renderer3DWorldScale": 100,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
@@ -7098,7 +7110,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5843784410741197,
+        "zoomFactor": 1.4307927813134922,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -7162,6 +7174,12 @@
         {
           "name": "ControlesVar",
           "persistentUuid": "609809c7-6f29-4a72-8d91-8030c7cbd6e3",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Pantallas",
+          "persistentUuid": "61236b9c-25d9-4dc1-b46c-ede53ed6e93f",
           "type": "number",
           "value": 0
         }
@@ -15010,6 +15028,32 @@
               "conditions": [
                 {
                   "type": {
+                    "value": "KeyFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"e\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "BloqueoE",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
                     "value": "CompareTimer"
                   },
                   "parameters": [
@@ -15053,6 +15097,16 @@
                     "50",
                     "1"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Pantallas",
+                    "=",
+                    "1"
+                  ]
                 }
               ]
             },
@@ -15061,13 +15115,12 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "CompareTimer"
+                    "value": "NumberVariable"
                   },
                   "parameters": [
-                    "",
-                    "\"Tiempo\"",
-                    ">=",
-                    "8"
+                    "Pantallas",
+                    "=",
+                    "1"
                   ]
                 },
                 {
@@ -15133,6 +15186,16 @@
                     "3",
                     "no"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Pantallas",
+                    "=",
+                    "2"
+                  ]
                 }
               ]
             },
@@ -15141,13 +15204,22 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "CompareTimer"
+                    "value": "NumberVariable"
                   },
                   "parameters": [
-                    "",
-                    "\"Tiempo\"",
-                    ">=",
-                    "11"
+                    "Pantallas",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "BloqueoE",
+                    "=",
+                    "0"
                   ]
                 },
                 {
@@ -15183,11 +15255,22 @@
                 },
                 {
                   "type": {
-                    "value": "ResetTimer"
+                    "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "",
-                    "\"Objetivo\""
+                    "Pantallas",
+                    "=",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "BloqueoE",
+                    "=",
+                    "1"
                   ]
                 }
               ]
@@ -15197,12 +15280,11 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "CompareTimer"
+                    "value": "NumberVariable"
                   },
                   "parameters": [
-                    "",
-                    "\"Objetivo\"",
-                    ">=",
+                    "Pantallas",
+                    "=",
                     "3"
                   ]
                 },
@@ -15269,6 +15351,16 @@
                     "3",
                     "no"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Pantallas",
+                    "=",
+                    "4"
+                  ]
                 }
               ]
             },
@@ -15277,13 +15369,22 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "CompareTimer"
+                    "value": "NumberVariable"
                   },
                   "parameters": [
-                    "",
-                    "\"Tiempo\"",
-                    ">=",
-                    "15"
+                    "Pantallas",
+                    "=",
+                    "4"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "BloqueoE",
+                    "=",
+                    "0"
                   ]
                 },
                 {
@@ -15319,11 +15420,22 @@
                 },
                 {
                   "type": {
-                    "value": "ResetTimer"
+                    "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "",
-                    "\"Nivel\""
+                    "Pantallas",
+                    "=",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "BloqueoE",
+                    "=",
+                    "1"
                   ]
                 }
               ]
@@ -15333,13 +15445,12 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "CompareTimer"
+                    "value": "NumberVariable"
                   },
                   "parameters": [
-                    "",
-                    "\"Nivel\"",
-                    ">=",
-                    "3"
+                    "Pantallas",
+                    "=",
+                    "5"
                   ]
                 },
                 {
@@ -15405,6 +15516,16 @@
                     "3",
                     "no"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Pantallas",
+                    "=",
+                    "6"
+                  ]
                 }
               ]
             },
@@ -15413,13 +15534,22 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "CompareTimer"
+                    "value": "NumberVariable"
                   },
                   "parameters": [
-                    "",
-                    "\"Tiempo\"",
-                    ">=",
-                    "20"
+                    "Pantallas",
+                    "=",
+                    "6"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "BloqueoE",
+                    "=",
+                    "0"
                   ]
                 },
                 {
@@ -15478,6 +15608,16 @@
                   "parameters": [
                     "VidaAzul",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "BloqueoE",
+                    "=",
+                    "1"
                   ]
                 }
               ]
@@ -20500,12 +20640,110 @@
                 },
                 {
                   "type": {
-                    "value": "SetNumberVariable"
+                    "value": "Hide"
                   },
                   "parameters": [
-                    "Escena",
+                    "VidaAzul"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Recuerdos"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Negro",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetZOrder"
+                  },
+                  "parameters": [
+                    "Negro",
                     "=",
-                    "1"
+                    "200"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Negro",
+                    "Opacity",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                  },
+                  "parameters": [
+                    "Negro",
+                    "Resizable",
+                    "1920",
+                    "1080"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Negro",
+                    "Tween",
+                    "\"AparicionPortada\"",
+                    "255",
+                    "\"linear\"",
+                    "3",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Fin\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Fin\"",
+                    ">=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Bosque - Nivel 2\"",
+                    ""
                   ]
                 },
                 {
@@ -20514,16 +20752,6 @@
                   },
                   "parameters": [
                     "Player",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Bosque - Nivel 2\"",
                     ""
                   ]
                 }
@@ -20608,42 +20836,63 @@
           "parameters": []
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "ADMIN - ELIMINAR",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
-              "type": {
-                "value": "KeyFromTextJustPressed"
-              },
-              "parameters": [
-                "",
-                "\"r\""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextJustPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"r\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "RecuerdosVar",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetXY"
+                  },
+                  "parameters": [
+                    "Player",
+                    "=",
+                    "1810",
+                    "=",
+                    "430"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Recuerdos",
+                    ""
+                  ]
+                }
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "RecuerdosVar",
-                "=",
-                "2"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetXY"
-              },
-              "parameters": [
-                "Player",
-                "=",
-                "1810",
-                "=",
-                "430"
-              ]
-            }
-          ]
+          "parameters": []
         }
       ],
       "layers": [
@@ -20792,6 +21041,7 @@
       "mangledName": "Bosque_32_45_32Nivel_322",
       "name": "Bosque - Nivel 2",
       "r": 8,
+      "renderer3DWorldScale": 100,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
@@ -20808,7 +21058,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.328972692326806,
+        "zoomFactor": 0.3768772036750897,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -22404,7 +22654,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 74,
+          "height": 87,
           "keepRatio": true,
           "layer": "",
           "name": "Pared",
@@ -27006,6 +27256,41 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 20,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Pared",
+          "opacity": 0,
+          "persistentUuid": "27f4de9a-ca56-4e57-b250-52bddd2f170b",
+          "width": 175,
+          "x": 869,
+          "y": 1038,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 46,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "Negro",
+          "persistentUuid": "0a1816ab-b8fd-4132-8859-8c1021ff7dba",
+          "width": 46,
+          "x": 0,
+          "y": 0,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -27169,16 +27454,6 @@
                   "parameters": [
                     ""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "Escena",
-                    "=",
-                    "1"
-                  ]
                 }
               ],
               "actions": [
@@ -27211,20 +27486,29 @@
                 },
                 {
                   "type": {
-                    "value": "ResetObjectTimer"
+                    "value": "Hide"
                   },
                   "parameters": [
-                    "Player",
-                    "\"CooldownDash\""
+                    "Oculto"
                   ]
                 },
                 {
                   "type": {
-                    "value": "ResetObjectTimer"
+                    "value": "Show"
                   },
                   "parameters": [
-                    "Player",
-                    "\"Daño\""
+                    "Negro",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetZOrder"
+                  },
+                  "parameters": [
+                    "Negro",
+                    "=",
+                    "1"
                   ]
                 },
                 {
@@ -27251,21 +27535,11 @@
                 },
                 {
                   "type": {
-                    "value": "Hide"
+                    "value": "Show"
                   },
                   "parameters": [
-                    "Oculto"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ZoomCamera"
-                  },
-                  "parameters": [
-                    "",
-                    "2",
-                    "",
-                    "0"
+                    "Nivel2",
+                    ""
                   ]
                 },
                 {
@@ -27339,6 +27613,58 @@
                 },
                 {
                   "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Player",
+                    "\"CooldownDash\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Player",
+                    "\"Daño\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Resizable",
+                    "30",
+                    "32"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CenterCameraOnObject"
+                  },
+                  "parameters": [
+                    "",
+                    "Player",
+                    "",
+                    "",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ZoomCamera"
+                  },
+                  "parameters": [
+                    "",
+                    "2",
+                    "",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "PlayMusicOnChannel"
                   },
                   "parameters": [
@@ -27363,7 +27689,16 @@
                     "",
                     "\"Tiempo\"",
                     ">=",
-                    "5"
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyFromTextJustPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"e\""
                   ]
                 },
                 {
@@ -27395,6 +27730,15 @@
                     "3",
                     "yes"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Comienzo\""
+                  ]
                 }
               ]
             },
@@ -27407,18 +27751,9 @@
                   },
                   "parameters": [
                     "",
-                    "\"Tiempo\"",
+                    "\"Comienzo\"",
                     ">=",
-                    "8"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "KeyFromTextJustPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"e\""
+                    "3"
                   ]
                 },
                 {
@@ -27445,6 +27780,15 @@
                   },
                   "parameters": [
                     "VidaAzul",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Recuerdos",
                     ""
                   ]
                 }
@@ -27556,7 +27900,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Movimiento",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -29974,6 +30317,7 @@
       "mangledName": "Ruinas_32_45_32Nivel_323",
       "name": "Ruinas - Nivel 3",
       "r": 5,
+      "renderer3DWorldScale": 100,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
@@ -33146,38 +33490,6 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Player",
-          "persistentUuid": "0b383d81-1cc2-497a-b8cd-a05f4a462d94",
-          "width": 0,
-          "x": 251,
-          "y": 315,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Artillero",
-          "persistentUuid": "91842811-2ce1-4b66-bbf6-bc6fd0c09241",
-          "width": 0,
-          "x": 287,
-          "y": 370,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
         }
       ],
       "objects": [
@@ -33326,7 +33638,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Comienzo de Escena",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -33631,7 +33942,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Colisiones",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -33730,7 +34040,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Movimiento",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -34678,7 +34987,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Disparo de Iones",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -34818,46 +35126,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Iones",
-                    "Caja",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Iones",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PathfindingBehavior::SetDestination"
-                  },
-                  "parameters": [
-                    "Caja",
-                    "Pathfinding",
-                    "",
-                    "555",
-                    "265"
-                  ]
-                }
-              ]
             }
           ],
           "parameters": []
@@ -34867,7 +35135,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Cañón de Plasma",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -35007,46 +35274,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Plasma",
-                    "Caja",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Plasma",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PathfindingBehavior::SetDestination"
-                  },
-                  "parameters": [
-                    "Caja",
-                    "Pathfinding",
-                    "",
-                    "555",
-                    "265"
-                  ]
-                }
-              ]
             }
           ],
           "parameters": []
@@ -35056,7 +35283,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Enemigo Buscador",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -35555,7 +35781,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Enemigo Artillero",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -35984,62 +36209,6 @@
                     "Animation",
                     "=",
                     "\"abajo\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Player",
-                    "MensajeDash",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Show"
-                  },
-                  "parameters": [
-                    "DashTip",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Player",
-                    "MensajeDash",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Hide"
-                  },
-                  "parameters": [
-                    "DashTip"
                   ]
                 }
               ]
