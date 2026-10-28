@@ -55440,7 +55440,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Disparo de Iones",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -55547,6 +55546,16 @@
                     "",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "BoostDaño",
+                    "=",
+                    "0"
+                  ]
                 }
               ],
               "actions": [
@@ -55654,6 +55663,16 @@
                     "",
                     "",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "BoostDaño",
+                    "=",
+                    "0"
                   ]
                 }
               ],
@@ -55762,6 +55781,16 @@
                     "",
                     "",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "BoostDaño",
+                    "=",
+                    "0"
                   ]
                 }
               ],
@@ -55870,6 +55899,16 @@
                     "",
                     "",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "BoostDaño",
+                    "=",
+                    "0"
                   ]
                 }
               ],
@@ -55972,7 +56011,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Cañón de Plasma",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -56079,6 +56117,16 @@
                     "",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "BoostDaño",
+                    "=",
+                    "0"
+                  ]
                 }
               ],
               "actions": [
@@ -56186,6 +56234,16 @@
                     "",
                     "",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "BoostDaño",
+                    "=",
+                    "0"
                   ]
                 }
               ],
@@ -56294,6 +56352,16 @@
                     "",
                     "",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "BoostDaño",
+                    "=",
+                    "0"
                   ]
                 }
               ],
@@ -56402,6 +56470,16 @@
                     "",
                     "",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "BoostDaño",
+                    "=",
+                    "0"
                   ]
                 }
               ],
@@ -60119,7 +60197,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Plataforma Flotante",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -60190,24 +60267,6 @@
                     "FasePlataforma",
                     "=",
                     "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "ZonaPlataforma",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "ZonaPlataforma2",
-                    ""
                   ]
                 }
               ]
@@ -60550,24 +60609,6 @@
                     "PlayerViajando",
                     "=",
                     "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "ZonaPlataforma",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "ZonaPlataforma2",
-                    ""
                   ]
                 }
               ]
@@ -61039,6 +61080,41 @@
               "conditions": [
                 {
                   "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "PlayerViajando",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "ZonaPlataforma",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "ZonaPlataforma2",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
                     "value": "Distance"
                   },
                   "parameters": [
@@ -61234,7 +61310,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Boost Daño",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -61434,6 +61509,15 @@
                     "100",
                     "1"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"SalirBoost\""
+                  ]
                 }
               ]
             },
@@ -61448,6 +61532,33 @@
                     "",
                     "\"e\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "BoostDaño",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"SalirBoost\"",
+                    ">=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
