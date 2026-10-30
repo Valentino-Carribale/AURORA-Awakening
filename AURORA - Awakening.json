@@ -14,7 +14,6 @@
     "orientation": "landscape",
     "packageName": "com.example.gamename",
     "pixelsRounding": false,
-    "projectUuid": "60fdeca1-5d4c-4a85-9e5d-46d50b4724f1",
     "scaleMode": "linear",
     "sizeOnStartupMode": "",
     "templateSlug": "starting-top-down",
@@ -10455,7 +10454,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.5289132892233972,
+        "zoomFactor": 0.6672773998330299,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -13306,8 +13305,8 @@
           "name": "DashTip",
           "persistentUuid": "136521a8-f84e-4672-b413-5ef26a3bce13",
           "width": 0,
-          "x": 1236,
-          "y": 387,
+          "x": 1215,
+          "y": 383,
           "zOrder": 124,
           "numberProperties": [],
           "stringProperties": [],
@@ -17261,7 +17260,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Puedes recoger y soltar\nbaterías pulsando \"F\"",
+          "string": "Puedes recoger y soltar\nbaterias pulsando \"F\"",
           "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
           "textAlignment": "center",
           "characterSize": 30,
@@ -17284,7 +17283,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Puedes recoger y soltar\nbaterías pulsando \"F\"",
+            "text": "Puedes recoger y soltar\nbaterias pulsando \"F\"",
             "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
             "textAlignment": "center",
             "verticalTextAlignment": "top",
@@ -17517,7 +17516,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Para esquivar ataques puedes\nusar tu dash pulsando \"Shift\"",
+          "string": "Para esquivar ataques puedes usar\ntu dash combinando \"Shift\" con A/D",
           "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
           "textAlignment": "center",
           "characterSize": 30,
@@ -17540,7 +17539,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Para esquivar ataques puedes\nusar tu dash pulsando \"Shift\"",
+            "text": "Para esquivar ataques puedes usar\ntu dash combinando \"Shift\" con A/D",
             "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
             "textAlignment": "center",
             "verticalTextAlignment": "top",
@@ -41528,7 +41527,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5427920802473418,
+        "zoomFactor": 0.4303403802207767,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -45724,7 +45723,7 @@
           "persistentUuid": "a03aaca3-be44-412d-87cc-ac4c4b1119cb",
           "width": 0,
           "x": 1459,
-          "y": 490,
+          "y": 478,
           "zOrder": 146,
           "numberProperties": [],
           "stringProperties": [],
@@ -45739,8 +45738,8 @@
           "name": "JefeTextFaltanRecuerdos",
           "persistentUuid": "be81fa14-c45a-49f3-8b53-3cf6a94ce500",
           "width": 0,
-          "x": 1464,
-          "y": 490,
+          "x": 1458,
+          "y": 487,
           "zOrder": 147,
           "numberProperties": [],
           "stringProperties": [],
@@ -54470,7 +54469,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Tu aventura está por terminar, pero queda un\nreto más: La unidad más fuerte de NorthBio. (E)",
+          "string": "Tu aventura esta por terminar, pero queda un\nreto mas: La unidad mas fuerte de NorthBio. (E)\nAprovecha tu dash para ser inmune al LASER.",
           "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
           "textAlignment": "center",
           "characterSize": 20,
@@ -54493,7 +54492,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Tu aventura está por terminar, pero queda un\nreto más: La unidad más fuerte de NorthBio. (E)",
+            "text": "Tu aventura esta por terminar, pero queda un\nreto mas: La unidad mas fuerte de NorthBio. (E)\nAprovecha tu dash para ser inmune al LASER.",
             "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
             "textAlignment": "center",
             "verticalTextAlignment": "top",
@@ -54514,7 +54513,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Tu aventura está por terminar, pero antes\ndeberás encontrar los recuerdos faltantes.",
+          "string": "Tu aventura esta por terminar, pero antes\ndeberas encontrar los recuerdos faltantes.",
           "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
           "textAlignment": "center",
           "characterSize": 20,
@@ -54537,7 +54536,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Tu aventura está por terminar, pero antes\ndeberás encontrar los recuerdos faltantes.",
+            "text": "Tu aventura esta por terminar, pero antes\ndeberas encontrar los recuerdos faltantes.",
             "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
             "textAlignment": "center",
             "verticalTextAlignment": "top",
@@ -54678,7 +54677,7 @@
               "type": "Tween::TweenBehavior"
             }
           ],
-          "string": "AURORA: Awakening\n\nProgramacion y Logica:\n\nAgustín Bianchi\nRamiro Herrera\nValentino Carribale\n\nAnimacion y Arte:\n\nIván Radoeff",
+          "string": "AURORA: Awakening\n\nProgramacion y Logica:\n\nAgustin Bianchi\nRamiro Herrera\nValentino Carribale\n\nAnimacion y Arte:\n\nIván Radoeff",
           "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
           "textAlignment": "center",
           "characterSize": 100,
@@ -54701,7 +54700,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "AURORA: Awakening\n\nProgramacion y Logica:\n\nAgustín Bianchi\nRamiro Herrera\nValentino Carribale\n\nAnimacion y Arte:\n\nIván Radoeff",
+            "text": "AURORA: Awakening\n\nProgramacion y Logica:\n\nAgustin Bianchi\nRamiro Herrera\nValentino Carribale\n\nAnimacion y Arte:\n\nIván Radoeff",
             "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
             "textAlignment": "center",
             "verticalTextAlignment": "top",
@@ -62388,14 +62387,49 @@
               "actions": [
                 {
                   "type": {
-                    "value": "PlaySound"
+                    "value": "PlaySoundOnChannel"
                   },
                   "parameters": [
                     "",
                     "assets/levitacion.mp3",
+                    "2",
                     "yes",
                     "50",
                     "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlataformaFlotante",
+                    "100",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "StopSoundChannel"
+                  },
+                  "parameters": [
+                    "",
+                    "2"
                   ]
                 }
               ]
@@ -64727,7 +64761,7 @@
                   "parameters": [
                     "Player",
                     "Puerta3",
-                    "50",
+                    "100",
                     ""
                   ]
                 },
@@ -64774,7 +64808,7 @@
                   "parameters": [
                     "Player",
                     "Puerta3",
-                    "50",
+                    "100",
                     ""
                   ]
                 },
@@ -67097,7 +67131,7 @@
             "isShadowEnabled": false,
             "italic": false,
             "outlineColor": "0;0;0",
-            "outlineThickness": 30,
+            "outlineThickness": 20,
             "shadowAngle": 90,
             "shadowBlurRadius": 2,
             "shadowColor": "0;0;0",
