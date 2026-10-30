@@ -2526,7 +2526,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/pixil-frame-0.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2534,7 +2534,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/pixil-frame-1.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2542,7 +2542,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/pixil-frame-2.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2550,7 +2550,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/pixil-frame-3.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2558,7 +2558,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/pixil-frame-4.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2566,7 +2566,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/pixil-frame-5.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2574,7 +2574,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/pixil-frame-6.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2582,7 +2582,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/pixil-frame-7.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2590,7 +2590,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/pixil-frame-8.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2598,7 +2598,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/pixil-frame-9.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2606,7 +2606,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/pixil-frame-10.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2614,7 +2614,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/pixil-frame-11.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2622,7 +2622,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/pixil-frame-12.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2630,7 +2630,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/pixil-frame-13.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2638,7 +2638,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/pixil-frame-14.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2646,7 +2646,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/pixil-frame-15.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2654,7 +2654,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/pixil-frame-16.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2662,7 +2662,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/pixil-frame-17.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2670,7 +2670,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/pixil-frame-18.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2678,7 +2678,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/pixil-frame-19.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2686,7 +2686,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/pixil-frame-20.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2694,7 +2694,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/pixil-frame-21.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2702,7 +2702,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/pixil-frame-22.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2710,7 +2710,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/pixil-frame-23.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2718,7 +2718,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/pixil-frame-24.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2726,7 +2726,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/pixil-frame-25.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2734,7 +2734,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/pixil-frame-26.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2742,7 +2742,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/pixil-frame-27.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2750,7 +2750,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/pixil-frame-28.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2758,7 +2758,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/pixil-frame-29.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2766,7 +2766,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/pixil-frame-30.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2774,7 +2774,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/pixil-frame-31.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2782,7 +2782,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/pixil-frame-32.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2790,7 +2790,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/pixil-frame-33.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2798,7 +2798,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/pixil-frame-34.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2806,7 +2806,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/pixil-frame-35.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2814,7 +2814,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/pixil-frame-36.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2822,7 +2822,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/pixil-frame-37.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2830,7 +2830,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/pixil-frame-38.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2838,7 +2838,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/pixil-frame-39.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2846,7 +2846,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/pixil-frame-40.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2854,7 +2854,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/pixil-frame-41.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2862,7 +2862,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/pixil-frame-42.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2870,7 +2870,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/pixil-frame-43.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2878,7 +2878,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/pixil-frame-44.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2886,7 +2886,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/pixil-frame-45.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2894,7 +2894,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/pixil-frame-46.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2902,7 +2902,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/pixil-frame-47.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2910,7 +2910,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/pixil-frame-48.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2918,7 +2918,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/pixil-frame-49.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2974,7 +2974,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/muerte/pixil-frame-0.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2982,7 +2982,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/muerte/pixil-frame-1.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2990,7 +2990,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/muerte/pixil-frame-2.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2998,7 +2998,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/muerte/pixil-frame-3.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3006,7 +3006,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/muerte/pixil-frame-4.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3014,7 +3014,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/muerte/pixil-frame-5.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3022,7 +3022,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/muerte/pixil-frame-6.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3030,7 +3030,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/muerte/pixil-frame-7.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3038,7 +3038,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/muerte/pixil-frame-8.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3046,7 +3046,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/muerte/pixil-frame-9.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3054,7 +3054,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/muerte/pixil-frame-10.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3062,7 +3062,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/jefe/muerte/pixil-frame-11.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -3090,7 +3090,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/Recuerdo9.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
