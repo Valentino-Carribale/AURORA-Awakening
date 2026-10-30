@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 284,
+    "build": 285,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -3063,6 +3063,44 @@
         "metadata": "",
         "name": "assets/jefe/muerte/pixil-frame-11.png",
         "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Batalla Final.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/Batalla Final.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Musica Final-9.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/Musica Final-9.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Recuerdo9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Recuerdo9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Voz Remember.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/Voz Remember.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
         "userAdded": false
       }
     ]
@@ -41452,7 +41490,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.5174985595891806,
+        "zoomFactor": 0.36458333333334314,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -41554,6 +41592,12 @@
           "persistentUuid": "b968ec46-fe10-41ef-bcbe-dd24353796f6",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "RecuerdoFinal",
+          "persistentUuid": "995a7a46-6c2b-47f4-8cb1-46d538e0a691",
+          "type": "number",
+          "value": 0
         }
       ],
       "instances": [
@@ -41570,7 +41614,7 @@
           "width": 1920,
           "x": 2,
           "y": -2,
-          "zOrder": 1,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -45660,6 +45704,59 @@
           "x": 1464,
           "y": 490,
           "zOrder": 147,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 84.4703770197,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "Final",
+          "opacity": 0,
+          "persistentUuid": "725b6881-01f9-4213-aac6-a23fd1b26cfb",
+          "width": 150,
+          "x": 0,
+          "y": 0,
+          "zOrder": 148,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 778,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "TextoFinal",
+          "opacity": 0,
+          "persistentUuid": "b5b50938-aa5a-4e38-8cbb-2e151007167d",
+          "width": 1144,
+          "x": 387,
+          "y": 172,
+          "zOrder": 149,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "Creditos",
+          "opacity": 0,
+          "persistentUuid": "5af6a482-bc2d-4883-ad6e-cc7258fdb48f",
+          "width": 0,
+          "x": 600,
+          "y": 130,
+          "zOrder": 150,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -53560,18 +53657,6 @@
           ]
         },
         {
-          "assetStoreId": "",
-          "height": 32,
-          "name": "Final",
-          "persistentUuid": "89fe7803-6594-45cf-b096-6a8002de3982",
-          "texture": "",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
           "assetStoreId": "9079ac48f7f787cfc4677b0d56c6ea9bcb5764a36d1b69e6d5189cc7f4d465a6",
           "name": "VidaJefe",
           "persistentUuid": "f5775e6c-a448-4aa3-8612-6e8f2533a379",
@@ -54347,7 +54432,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Tu aventura está por terminar, pero queda un\nreto más: La unidad más fuerte de NorthBio.",
+          "string": "Tu aventura está por terminar, pero queda un\nreto más: La unidad más fuerte de NorthBio. (E)",
           "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
           "textAlignment": "center",
           "characterSize": 20,
@@ -54370,7 +54455,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Tu aventura está por terminar, pero queda un\nreto más: La unidad más fuerte de NorthBio.",
+            "text": "Tu aventura está por terminar, pero queda un\nreto más: La unidad más fuerte de NorthBio. (E)",
             "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
             "textAlignment": "center",
             "verticalTextAlignment": "top",
@@ -54419,6 +54504,170 @@
             "textAlignment": "center",
             "verticalTextAlignment": "top",
             "characterSize": 20,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Final",
+          "persistentUuid": "b16529f6-dd52-4711-8e5e-3e801fcce419",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Recuerdo9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1671,
+                            "y": 0
+                          },
+                          {
+                            "x": 1671,
+                            "y": 941
+                          },
+                          {
+                            "x": 0,
+                            "y": 941
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "TextoFinal",
+          "persistentUuid": "fc9e987b-3d32-4c0a-8b1c-06b956430cbe",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "I remember now.\nI´m Annie...\n\nTo be continued...",
+          "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+          "textAlignment": "center",
+          "characterSize": 200,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 15,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "I remember now.\nI´m Annie...\n\nTo be continued...",
+            "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 200,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Creditos",
+          "persistentUuid": "78a16bbb-fcf8-4330-b9b3-bfa486165c43",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "AURORA: Awakening\n\nProgramacion y Logica:\n\nAgustín Bianchi\nRamiro Herrera\nValentino Carribale\n\nAnimacion y Arte:\n\nIván Radoeff",
+          "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+          "textAlignment": "center",
+          "characterSize": 100,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 10,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "AURORA: Awakening\n\nProgramacion y Logica:\n\nAgustín Bianchi\nRamiro Herrera\nValentino Carribale\n\nAnimacion y Arte:\n\nIván Radoeff",
+            "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 100,
             "lineHeight": 0,
             "color": "0;0;0"
           }
@@ -54518,6 +54767,12 @@
             "objectName": "BoostDañoText"
           },
           {
+            "objectName": "TextoFinal"
+          },
+          {
+            "objectName": "Creditos"
+          },
+          {
             "objectName": "PlataformaText"
           },
           {
@@ -54570,7 +54825,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Comienzo de Escena",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -56418,6 +56672,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Disparo de Iones",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -56989,6 +57244,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Cañón de Plasma",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -59931,7 +60187,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Terminal",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -61175,6 +61430,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Plataforma Flotante",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -62288,6 +62544,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Boost Daño",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -62615,6 +62872,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Jefe",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -64263,6 +64521,490 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
+          "name": "PuertaBoost",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "puer",
+                    "\"PuertaBoost\"",
+                    ">=",
+                    "7"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Puerta3",
+                    "Abierto",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Puerta3",
+                    "Animation",
+                    "=",
+                    "\"Cerrando\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Puerta3",
+                    "Abierto",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"PuertaBoost\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "ColisionPuerta3",
+                    "1252",
+                    "710",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                  },
+                  "parameters": [
+                    "ColisionPuerta3",
+                    "Resizable",
+                    "55",
+                    "51"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "ColisionPuerta3"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "puer",
+                    "\"PuertaBoost\"",
+                    ">=",
+                    "7"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Puerta3",
+                    "Abierto",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Puerta3",
+                    "Animation",
+                    "=",
+                    "\"Abriendo\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Puerta3",
+                    "Abierto",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"PuertaBoost\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "ColisionPuerta3",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Puerta3",
+                    "Abierto",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Puerta3",
+                    "50",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets/puertas.mp3",
+                    "",
+                    "25",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Puerta3",
+                    "Abierto",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Puerta3",
+                    "50",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets/puertas.mp3",
+                    "",
+                    "25",
+                    "1"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "EntradaJefe",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "ZonaPuertaJefe",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "RecuerdosVar",
+                    "=",
+                    "8"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "JefeText",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "ZonaPuertaJefe",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "RecuerdosVar",
+                    "=",
+                    "8"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyFromTextJustPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"e\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Puerta4",
+                    "Animation",
+                    "=",
+                    "\"Abriendo\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets/puertas.mp3",
+                    "",
+                    "25",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "ColisionPuerta4",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StopMusicChannel"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusicOnChannel"
+                  },
+                  "parameters": [
+                    "",
+                    "assets/Batalla Final.mp3",
+                    "1",
+                    "",
+                    "50",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "ZonaPuertaJefe",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "RecuerdosVar",
+                    "=",
+                    "8"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "JefeTextFaltanRecuerdos",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "ZonaPuertaJefe",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "JefeText"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "JefeTextFaltanRecuerdos"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
           "name": "SalidaFinal",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -64496,18 +65238,6 @@
                 },
                 {
                   "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Player",
-                    "PuertaSalida",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
                     "value": "NumberObjectVariable"
                   },
                   "parameters": [
@@ -64526,6 +65256,24 @@
                     "=",
                     "0"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PuertaSalida",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -64537,15 +65285,6 @@
                     "Victoria",
                     "=",
                     "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Show"
-                  },
-                  "parameters": [
-                    "Final",
-                    ""
                   ]
                 },
                 {
@@ -64563,183 +65302,8 @@
                     "value": "Delete"
                   },
                   "parameters": [
-                    "Player",
+                    "VidaAzul",
                     ""
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "PuertaBoost",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CompareTimer"
-                  },
-                  "parameters": [
-                    "puer",
-                    "\"PuertaBoost\"",
-                    ">=",
-                    "7"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Puerta3",
-                    "Abierto",
-                    "=",
-                    "1"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Puerta3",
-                    "Animation",
-                    "=",
-                    "\"Cerrando\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Puerta3",
-                    "Abierto",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ResetTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"PuertaBoost\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "ColisionPuerta3",
-                    "1252",
-                    "710",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ResizableCapability::ResizableBehavior::SetSize"
-                  },
-                  "parameters": [
-                    "ColisionPuerta3",
-                    "Resizable",
-                    "55",
-                    "51"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Hide"
-                  },
-                  "parameters": [
-                    "ColisionPuerta3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "assets/puertas.mp3",
-                    "",
-                    "25",
-                    "1"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CompareTimer"
-                  },
-                  "parameters": [
-                    "puer",
-                    "\"PuertaBoost\"",
-                    ">=",
-                    "7"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Puerta3",
-                    "Abierto",
-                    "=",
-                    "0"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Puerta3",
-                    "Animation",
-                    "=",
-                    "\"Abriendo\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Puerta3",
-                    "Abierto",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ResetTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"PuertaBoost\""
                   ]
                 },
                 {
@@ -64747,8 +65311,30 @@
                     "value": "Delete"
                   },
                   "parameters": [
-                    "ColisionPuerta3",
+                    "Recuerdos",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StopMusicChannel"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusicOnChannel"
+                  },
+                  "parameters": [
+                    "",
+                    "assets/Musica Final-9.mp3",
+                    "1",
+                    "",
+                    "50",
+                    "1"
                   ]
                 },
                 {
@@ -64757,60 +65343,85 @@
                   },
                   "parameters": [
                     "",
-                    "assets/puertas.mp3",
+                    "assets/recuerdo.mp3",
                     "",
-                    "25",
+                    "100",
                     "1"
                   ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "EntradaJefe",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Player",
-                    "ZonaPuertaJefe",
-                    "",
-                    "",
-                    ""
-                  ]
                 },
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "RecuerdosVar",
-                    "=",
-                    "8"
-                  ]
-                }
-              ],
-              "actions": [
                 {
                   "type": {
                     "value": "Show"
                   },
                   "parameters": [
-                    "JefeText",
+                    "Final",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "Final",
+                    "Resizable",
+                    "=",
+                    "1920"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                  },
+                  "parameters": [
+                    "Final",
+                    "Resizable",
+                    "=",
+                    "1080"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Final",
+                    "Opacity",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Final",
+                    "Tween",
+                    "\"AparicionRecuerdo1\"",
+                    "255",
+                    "\"linear\"",
+                    "0.5",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "RecuerdoFinal",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"EscenaFinal\""
                   ]
                 }
               ]
@@ -64820,24 +65431,12 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Player",
-                    "ZonaPuertaJefe",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
                     "value": "NumberVariable"
                   },
                   "parameters": [
-                    "RecuerdosVar",
+                    "RecuerdoFinal",
                     "=",
-                    "8"
+                    "1"
                   ]
                 },
                 {
@@ -64848,39 +65447,162 @@
                     "",
                     "\"e\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"EscenaFinal\"",
+                    ">=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
                   },
                   "parameters": [
-                    "Puerta4",
-                    "Animation",
-                    "=",
-                    "\"Abriendo\""
+                    "Final",
+                    "Tween",
+                    "\"AparicionRecuerdo1\"",
+                    "0",
+                    "\"linear\"",
+                    "0.5",
+                    "no"
                   ]
                 },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Creditos\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Negro",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "Negro",
+                    "Resizable",
+                    "=",
+                    "1920"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                  },
+                  "parameters": [
+                    "Negro",
+                    "Resizable",
+                    "=",
+                    "1080"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Negro",
+                    "Tween",
+                    "\"AparicionRecuerdo1\"",
+                    "255",
+                    "\"linear\"",
+                    "0.5",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "TextoFinal",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "TextoFinal",
+                    "Opacity",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "TextoFinal",
+                    "Tween",
+                    "\"AparicionRecuerdo1\"",
+                    "255",
+                    "\"linear\"",
+                    "1",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Creditos\"",
+                    ">=",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
                 {
                   "type": {
                     "value": "PlaySound"
                   },
                   "parameters": [
                     "",
-                    "assets/puertas.mp3",
+                    "assets/Voz Remember.mp3",
                     "",
-                    "25",
+                    "75",
                     "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "ColisionPuerta4",
-                    ""
                   ]
                 }
               ]
@@ -64890,104 +65612,75 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "CollisionNP"
+                    "value": "CompareTimer"
                   },
                   "parameters": [
-                    "Player",
-                    "ZonaPuertaJefe",
                     "",
-                    "",
-                    ""
+                    "\"Creditos\"",
+                    ">=",
+                    "7"
                   ]
                 },
                 {
                   "type": {
-                    "inverted": true,
-                    "value": "NumberVariable"
+                    "value": "BuiltinCommonInstructions::Once"
                   },
-                  "parameters": [
-                    "RecuerdosVar",
-                    "=",
-                    "8"
-                  ]
+                  "parameters": []
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "TextoFinal",
+                    "Tween",
+                    "\"AparicionRecuerdo1\"",
+                    "0",
+                    "\"linear\"",
+                    "1",
+                    "no"
+                  ]
+                },
                 {
                   "type": {
                     "value": "Show"
                   },
                   "parameters": [
-                    "JefeTextFaltanRecuerdos",
+                    "Creditos",
                     ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Player",
-                    "ZonaPuertaJefe",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Hide"
-                  },
-                  "parameters": [
-                    "JefeText"
                   ]
                 },
                 {
                   "type": {
-                    "value": "Hide"
+                    "value": "OpacityCapability::OpacityBehavior::SetValue"
                   },
                   "parameters": [
-                    "JefeTextFaltanRecuerdos"
+                    "Creditos",
+                    "Opacity",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Creditos",
+                    "Tween",
+                    "\"AparicionRecuerdo1\"",
+                    "255",
+                    "\"linear\"",
+                    "1",
+                    "no"
                   ]
                 }
               ]
             }
           ],
           "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyFromTextJustPressed"
-              },
-              "parameters": [
-                "",
-                "\"r\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "RecuerdosVar",
-                "=",
-                "8"
-              ]
-            }
-          ]
         }
       ],
       "layers": [
