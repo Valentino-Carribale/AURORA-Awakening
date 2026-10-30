@@ -6413,7 +6413,21 @@
           "value": 15
         }
       ],
-      "effects": [],
+      "effects": [
+        {
+          "disabled": true,
+          "effectType": "Outline",
+          "name": "Effect",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 5
+          },
+          "stringParameters": {
+            "color": "0;225;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [
         {
           "name": "FireBullet",
@@ -8504,7 +8518,21 @@
           "value": 15
         }
       ],
-      "effects": [],
+      "effects": [
+        {
+          "disabled": true,
+          "effectType": "Outline",
+          "name": "Effect",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 5
+          },
+          "stringParameters": {
+            "color": "0;225;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [
         {
           "name": "FireBullet",
@@ -10367,6 +10395,12 @@
         },
         {
           "name": "ColisionPuertaFinal"
+        },
+        {
+          "name": "ZonaPlataforma"
+        },
+        {
+          "name": "ZonaPlataforma2"
         }
       ]
     }
@@ -10421,7 +10455,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.7458023987468634,
+        "zoomFactor": 1.5289132892233972,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -11408,7 +11442,7 @@
           "width": 138,
           "x": 0,
           "y": 0,
-          "zOrder": 14,
+          "zOrder": 150,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -13123,7 +13157,7 @@
           "width": 137,
           "x": 0,
           "y": 0,
-          "zOrder": 117,
+          "zOrder": 150,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -20609,6 +20643,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Puerta Botón",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -20953,7 +20988,7 @@
                     "Recuerdos",
                     "Text",
                     "=",
-                    "\"Recuerdos: \" + ToString(GlobalVariable(RecuerdosVar))"
+                    "\"Recuerdos: \" + ToString(GlobalVariable(RecuerdosVar)) + \" /2\""
                   ]
                 },
                 {
@@ -21730,6 +21765,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Hackeo Láser",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -22935,6 +22971,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Recuerdo2",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -23119,7 +23156,7 @@
                     "Recuerdos",
                     "Text",
                     "=",
-                    "\"Recuerdos: \" + ToString(GlobalVariable(RecuerdosVar))"
+                    "\"Recuerdos: \" + ToString(GlobalVariable(RecuerdosVar)) + \" /2\""
                   ]
                 },
                 {
@@ -23919,6 +23956,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Final - Cambio de Escena",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -30991,7 +31029,7 @@
           "width": 150,
           "x": 0,
           "y": 0,
-          "zOrder": 8,
+          "zOrder": 150,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -31579,7 +31617,7 @@
           "width": 134,
           "x": 0,
           "y": 0,
-          "zOrder": 128,
+          "zOrder": 150,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -31681,7 +31719,7 @@
           "width": 179,
           "x": 0,
           "y": 0,
-          "zOrder": 133,
+          "zOrder": 150,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -31698,7 +31736,7 @@
           "width": 155,
           "x": 0,
           "y": 0,
-          "zOrder": 134,
+          "zOrder": 150,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -34457,7 +34495,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Comienzo de Escena",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -34741,7 +34778,7 @@
                     "Recuerdos",
                     "Text",
                     "=",
-                    "\"Recuerdos: \" + ToString(GlobalVariable(RecuerdosVar))"
+                    "\"Recuerdos: \" + ToString(GlobalVariable(RecuerdosVar)) + \" /6\""
                   ]
                 }
               ]
@@ -36564,7 +36601,7 @@
                     "Recuerdos",
                     "Text",
                     "=",
-                    "\"Recuerdos: \" + ToString(GlobalVariable(RecuerdosVar))"
+                    "\"Recuerdos: \" + ToString(GlobalVariable(RecuerdosVar)) + \" /6\""
                   ]
                 },
                 {
@@ -36876,7 +36913,7 @@
                     "Recuerdos",
                     "Text",
                     "=",
-                    "\"Recuerdos: \" + ToString(GlobalVariable(RecuerdosVar))"
+                    "\"Recuerdos: \" + ToString(GlobalVariable(RecuerdosVar)) + \" /6\""
                   ]
                 },
                 {
@@ -37245,7 +37282,7 @@
                     "Recuerdos",
                     "Text",
                     "=",
-                    "\"Recuerdos: \" + ToString(GlobalVariable(RecuerdosVar))"
+                    "\"Recuerdos: \" + ToString(GlobalVariable(RecuerdosVar)) + \" /6\""
                   ]
                 },
                 {
@@ -37557,7 +37594,7 @@
                     "Recuerdos",
                     "Text",
                     "=",
-                    "\"Recuerdos: \" + ToString(GlobalVariable(RecuerdosVar))"
+                    "\"Recuerdos: \" + ToString(GlobalVariable(RecuerdosVar)) + \" /6\""
                   ]
                 },
                 {
@@ -40459,6 +40496,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Boton Laser Intermitente",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -41490,7 +41528,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.36458333333334314,
+        "zoomFactor": 0.5427920802473418,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -44795,7 +44833,7 @@
           "width": 157,
           "x": 0,
           "y": 0,
-          "zOrder": 9,
+          "zOrder": 150,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -45003,7 +45041,7 @@
           "width": 150,
           "x": 0,
           "y": 0,
-          "zOrder": 20,
+          "zOrder": 150,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -45020,7 +45058,7 @@
           "width": 150,
           "x": 0,
           "y": 0,
-          "zOrder": 21,
+          "zOrder": 150,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -54825,6 +54863,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Comienzo de Escena",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -55131,7 +55170,7 @@
                     "Recuerdos",
                     "Text",
                     "=",
-                    "\"Recuerdos: \" + ToString(GlobalVariable(RecuerdosVar))"
+                    "\"Recuerdos: \" + ToString(GlobalVariable(RecuerdosVar)) + \" /8\""
                   ]
                 }
               ]
@@ -60003,7 +60042,7 @@
                     "Recuerdos",
                     "Text",
                     "=",
-                    "\"Recuerdos: \" + ToString(GlobalVariable(RecuerdosVar))"
+                    "\"Recuerdos: \" + ToString(GlobalVariable(RecuerdosVar)) + \" /8\""
                   ]
                 },
                 {
@@ -60187,6 +60226,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Terminal",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -60929,7 +60969,7 @@
                     "Recuerdos",
                     "Text",
                     "=",
-                    "\"Recuerdos: \" + ToString(GlobalVariable(RecuerdosVar))"
+                    "\"Recuerdos: \" + ToString(GlobalVariable(RecuerdosVar)) + \" /8\""
                   ]
                 },
                 {
@@ -61488,16 +61528,6 @@
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "Teclado",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
                     "FasePlataforma",
                     "=",
                     "1"
@@ -61760,16 +61790,6 @@
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "Teclado",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
                     "PlayerViajando",
                     "=",
                     "0"
@@ -61823,16 +61843,6 @@
                     "FasePlataforma",
                     "=",
                     "5"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "Teclado",
-                    "=",
-                    "0"
                   ]
                 },
                 {
@@ -62112,16 +62122,6 @@
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "Teclado",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
                     "PlayerViajando",
                     "=",
                     "0"
@@ -62306,6 +62306,16 @@
                   "parameters": [
                     "ZonaPlataforma"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Teclado",
+                    "=",
+                    "1"
+                  ]
                 }
               ]
             },
@@ -62340,6 +62350,16 @@
                   "parameters": [
                     "ZonaPlataforma2",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Teclado",
+                    "=",
+                    "0"
                   ]
                 }
               ]
@@ -64788,6 +64808,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "EntradaJefe",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -65005,6 +65026,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "SalidaFinal",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
